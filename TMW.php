@@ -54,13 +54,13 @@ class walleTransfer {
 	public function transaction_transfer_status($token, $transaction_id) {
         $url = "https://mobile-api-gateway.truemoney.com/mobile-api-gateway/api/v1/transfer/transaction/{$transaction_id}/status/{$token}";
         $header = array("Host: mobile-api-gateway.truemoney.com", "Content-Type: application/json");
-        return @json_decode($this->Request('POST', $url, $header, $data), true);
+        return @json_decode($this->Request('POST', $url, $header), true);
     }
 	
 	public function transaction_transfer_summery($token, $transaction_id) {
         $url = "https://mobile-api-gateway.truemoney.com/mobile-api-gateway/api/v1/transfer/transaction/{$transaction_id}/{$token}";
         $header = array("Host: mobile-api-gateway.truemoney.com", "Content-Type: application/json");
-        return @json_decode($this->Request('POST', $url, $header, $data), true);
+        return @json_decode($this->Request('POST', $url, $header), true);
     }	
 	
 }
