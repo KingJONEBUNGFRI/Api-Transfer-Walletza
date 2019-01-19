@@ -1,6 +1,10 @@
 # Original Source Code by maythiwat
-original template : maythiwat
-github : https://github.com/maythiwat/WalletAPI //default template
+Original template : maythiwat
+Github : https://github.com/maythiwat/WalletAPI //default template
+
+# Url API Transfer by Noxturnix
+Original template : Noxturnix
+Github : https://github.com/Noxturnix/0x02Wallet
 
 ## Example Usage
 This is an example to Login and Logout
