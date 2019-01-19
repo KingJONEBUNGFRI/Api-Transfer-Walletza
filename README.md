@@ -10,7 +10,7 @@
 This is an example to Login and Logout
 ```php
 use Maythiwat\walleTransfer;
-require_once(__DIR__ . '/WalletAPI.php');
+require_once(__DIR__ . '/TMW.php');
 $transfer = new walleTransfer();
 
 // Login with Email & Password
