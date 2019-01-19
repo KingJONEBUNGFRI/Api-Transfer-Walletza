@@ -1,9 +1,10 @@
 # Original Source Code by maythiwat
 
-Example. !
-<?Php
+## Example Usage
+This is an example to Login and Logout
+```php
 use Maythiwat\walleTransfer;
-require_once('TMW.php');
+require_once(__DIR__ . '/WalletAPI.php');
 $tw = new walleTransfer();
 
 // Login with Email & Password
@@ -14,6 +15,8 @@ $token = $tw->GetToken('0698765432', '1234', 'phone');
 
 // Logout
 $tw->Logout($token);
+```
 
-?>
-อื่นๆอัพเดททีหลัง #DONATION : 091-763-1018 TruemoneyWallet
+## โดเนท
+คุณสามารถโดเนทได้ที่ 
+- Truemoneywallet [ 0917631018 ]
