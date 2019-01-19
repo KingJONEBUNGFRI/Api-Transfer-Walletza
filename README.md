@@ -1,20 +1,22 @@
 # Original Source Code by maythiwat
+original template : maythiwat
+github : https://github.com/maythiwat/WalletAPI //default template
 
 ## Example Usage
 This is an example to Login and Logout
 ```php
 use Maythiwat\walleTransfer;
 require_once(__DIR__ . '/WalletAPI.php');
-$tw = new walleTransfer();
+$transfer = new walleTransfer();
 
 // Login with Email & Password
-$token = $tw->GetToken('email@provider.com', 'your_p@ssw0rd');
+$token = $transfer->GetToken('example@example.com', 'password');
 
 // Login with Phone & PIN
-$token = $tw->GetToken('0698765432', '1234', 'phone');
+$token = $transfer->GetToken('0911111111', '1234', 'phone');
 
 // Logout
-$tw->Logout($token);
+$transfer->Logout($token);
 ```
 
 ## โดเนท
