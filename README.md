@@ -26,3 +26,4 @@ $transfer->Logout($token);
 ## โดเนท
 คุณสามารถโดเนทได้ที่ 
 - Truemoneywallet [ 0917631018 ]
+- DOWNLOAD DEMO : https://gamexs.xyz/
